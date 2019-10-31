@@ -1,9 +1,0 @@
-<?php
-
-$value = $modx->getOption('value', $scriptProperties, '');
-
-if($value === '') {
-    return;
-}
-
-return $_GET[$value];
